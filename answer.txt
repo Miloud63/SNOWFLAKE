@@ -1,0 +1,164 @@
+Question1: Donnez les titres des albums qui ont plus de 1 CD.
+
+                                                 TITLE
+0                                    Restless and Wild
+1                                             Facelift
+2                                  BackBeat Soundtrack
+3                             The Best Of Billy Cobham
+4             Alcohol Fueled Brewtality Live! [Disc 1]
+..                                                 ...
+164                       Weill: The Seven Deadly Sins
+165  J.S. Bach: Chaconne; Suite in E Minor; Partita...
+166       Liszt - 12 Études D''Execution Transcendante
+167  Great Recordings of the Century - Shubert: Sch...
+168                             Respighi:Pines of Rome
+
+[169 rows x 1 columns]
+
+------------------------------
+
+Question2: Donnez les morceaux produits en 2000 ou en 2002.
+
+                         NAME
+0     L''Arc En Ciel De Miles
+1                      Amanda
+2           Let Me Off Uptown
+3           Garota De Ipanema
+4                  Fotografia
+...                       ...
+1201          Looks That Kill
+1202            Ace Of Spades
+1203              Live To Win
+1204          Now''s The Time
+1205                Supernaut
+
+[1206 rows x 1 columns]
+
+------------------------------
+
+3- Donnez le nom et le compositeur des morceaux de Rock et de Jazz.
+
+                                                   NAME  ...                                           COMPOSER
+0     "Band Members Discuss Tracks fromRevelations"""""  ...                                                nan
+1                                           Revelations  ...                                                nan
+2                                      One and the Same  ...                                                nan
+3                                        Sound of a Gun  ...                                                nan
+4                                         Until We Fall  ...                                                nan
+...                                                 ...  ...                                                ...
+8135                          Seven Minutes to Midnight  ...                                                nan
+8136                                    Because You Are  ...                                       Billy Corgan
+8137                                       Little Linda  ...                                        Jeremy Wall
+8138                                      Koyaanisqatsi  ...                                       Philip Glass
+8139                                  Restless and Wild  ...  F. Baltes; R.A. Smith-Diesel; S. Kaufman; U. D...
+
+[8140 rows x 3 columns]
+
+------------------------------
+
+4-Donnez les 10 albums les plus longs.
+
+                                               TITLE
+0  Tchaikovsky: 1812 Festival Overture; Op.49; Ca...
+1  J.S. Bach: Chaconne; Suite in E Minor; Partita...
+2  Great Performances - Barber''s Adagio and Othe...
+3  Pure Cult: The Best Of The Cult (For Rockers; ...
+4  20th Century Masters - The Millennium Collecti...
+5  Radio Brasil (O Som da Jovem Vanguarda) - Sele...
+6  Great Recordings of the Century - Shubert: Sch...
+7  Knocking at Your Back Door: The Best Of Deep P...
+8  Instant Karma: The Amnesty International Campa...
+9  Great Recordings of the Century - Mahler: Das ...
+
+------------------------------
+
+5-Donnez le nombre d'albums produits pour chaque artiste.
+
+                                               TITLE
+0  Tchaikovsky: 1812 Festival Overture; Op.49; Ca...
+1  J.S. Bach: Chaconne; Suite in E Minor; Partita...
+2  Great Performances - Barber''s Adagio and Othe...
+3  Pure Cult: The Best Of The Cult (For Rockers; ...
+4  20th Century Masters - The Millennium Collecti...
+5  Radio Brasil (O Som da Jovem Vanguarda) - Sele...
+6  Great Recordings of the Century - Shubert: Sch...
+7  Knocking at Your Back Door: The Best Of Deep P...
+8  Instant Karma: The Amnesty International Campa...
+9  Great Recordings of the Century - Mahler: Das ...
+
+------------------------------
+
+6-Donnez le nombre de morceaux produits par chaque artiste.
+
+    ARTISTID  NUM_MUSIC
+0          1       3195
+1          8       3195
+2          5       1431
+3          3        184
+4         10        184
+5         11         37
+6         17         26
+7         12         25
+8         16         15
+9         15         10
+10        13          8
+11        14          7
+12         9          1
+13        18          1
+
+------------------------------
+
+7-Donnez le genre de musique le plus écouté dans les années 2000.
+
+  GENRES  NUM_GENRES
+0   Rock        7421
+
+------------------------------
+
+8-Donnez les noms de toutes les playlists où figurent des morceaux de plus de 4 minutes.
+
+                     PLAYLISTS
+0                       Movies
+1                     TV Shows
+2                        Music
+3                       Grunge
+4                  On-The-Go 1
+5    Classical 101 - Deep Cuts
+6                    Classical
+7   Classical 101 - Next Steps
+8              Brazilian Music
+9          Heavy Metal Classic
+10                Music Videos
+11                  90s Music
+12  Classical 101 - The Basics
+13                  Audiobooks
+
+------------------------------
+
+9-Donnez les morceaux de Rock dont les artistes sont en France.
+
+          MORCEAUX
+0  Now''s The Time
+
+------------------------------
+
+10-Donnez la moyenne des tailles des morceaux par genre musical.
+
+               GENRES  LONGUEUR_MOYENNE
+0               Metal         14.859838
+1                Jazz         19.947475
+2  Alternative & Punk         38.800000
+3                Rock         14.927907
+4       Rock And Roll         14.954545
+
+------------------------------
+
+11-Donnez les playlist où figurent des morceaux d'artistes nés avant 1990.
+
+                    PLAYLISTS
+0                      Movies
+1                      Grunge
+2                       Music
+3                 On-The-Go 1
+4  Classical 101 - The Basics
+5  Classical 101 - Next Steps
+6   Classical 101 - Deep Cuts
